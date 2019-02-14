@@ -1,0 +1,8 @@
+.todo-item {display:flex;padding:1rem;align-items:center;cursor:pointer;transition:all 0.15s;user-select:none;}
+.todo-item:hover {background:#e3fafc;}
+.todo-item:hover .remove {opacity:1;}
+.todo-item + .todo-item {border-top:1px solid #f1f3f5;}
+.remove {margin-right:1rem;font-weight:600;color:#e64980;opacity:0;}
+.todo-text {flex:1;word-break:break-all;}
+.checked {color:#adb5bd;text-decoration:line-through;}
+.check-mark {margin-left:1rem;font-size:1.5rem;font-weight:800;color:#3bc9db;line-height:1rem;}
