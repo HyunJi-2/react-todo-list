@@ -1,4 +1,6 @@
-.form {display:flex;}
+$red: #fa5252;
+
+.form {display:flex}
 .form input {flex:1;font-size:1.25rem;border:none;border-bottom:1px solid #c5f6fa;outline:none;}
 .create-button {padding:0.5rem 1rem;margin-left:1rem;color:#fff;font-weight:bold;background-color:#22b8cf;cursor:pointer;border-radius:3px;}
-.create-button:hover {background-color:#3bc9db;}
+.create-button:hover {color:$red;background-color:#3bc9db;}
